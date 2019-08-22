@@ -16,7 +16,10 @@ object baigorria {
 		cantidadEmpanadasVendidas += 1
 	}
  	
-	method sueldo() = cantidadEmpanadasVendidas * montoPorEmpanada
+	method sueldo_cheto() = cantidadEmpanadasVendidas * montoPorEmpanada
+	method sueldo(){
+		return cantidadEmpanadasVendidas * montoPorEmpanada
+	}
 }
 
 object gimenez {
